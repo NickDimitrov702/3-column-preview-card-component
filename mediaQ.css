@@ -1,0 +1,72 @@
+@media all and (max-width: 1200px) {
+    body {
+        display: flex;
+        max-width: 375px;
+        /* margin: auto; */
+        background-color: hsl(0, 0%, 95%);
+    }
+
+    #main-wrapper {
+        height: 100%;
+        width: 350px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 12px;
+        
+
+    }
+
+    header {
+        width: 260px;
+        text-align: start;
+    }
+
+    .card-wrapper {
+        display: flex;
+        align-items: center;
+        width: 350px;
+        margin: auto;
+        
+    }
+
+    .content-wrapper {
+        max-width:260px;
+        padding: 25px;
+        margin: auto;
+    }
+
+    .content-wrapper h1 {
+        font-size: 40px;
+    }
+
+    .content-wrapper p {
+        text-align: start;
+        width: 260px;
+        font-size: 17px;
+        line-height: 25px;
+        margin: auto;
+    }
+
+    button  {
+        margin-top: 35px;
+        width: 135px;
+    }
+
+    
+
+    #first-card {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 12px 12px 0px 0px;
+    }
+    
+    #second-card {
+        background-color:  hsl(184, 100%, 22%);
+    }
+    
+    #third-card {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 0px 12px 12px;
+    }
+}

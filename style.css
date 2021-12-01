@@ -7,13 +7,14 @@ body {
     justify-content: center;
     padding: 150px;
     margin: auto;
+    background-color: hsl(0, 0%, 95%);
 }
 
 #main-wrapper {
     display: flex;
     justify-content:center;
     width: 800px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     border-radius: 15px;
 }
 
@@ -62,14 +63,21 @@ body {
 
 button {
     margin-top: 70px;
-    width: 125px;
-    height: 45px;
+    width: 135px;
+    height: 50px;
     border-radius: 20px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
+    background-color: white;
+    border: 2px solid transparent;
+    color: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    mix-blend-mode: lighten;
 }
 
 button:hover {
     cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+
 }
